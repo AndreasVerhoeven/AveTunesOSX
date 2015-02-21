@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* AveTunes1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* AveTunes1AppDelegate.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B20153A410E52541001F8C7B /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B20153A310E52541001F8C7B /* BWToolkitFramework.framework */; };
+		B23D75B910DC3FE700BD4D5F /* PreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B23D75B810DC3FE700BD4D5F /* PreferenceWindowController.m */; };
+		B24221F110DC24A4005F001F /* ave_deskicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B24221F010DC24A4005F001F /* ave_deskicon.png */; };
+		B256BCF910DD2867006FF88E /* MAAttachedWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B256BCF810DD2867006FF88E /* MAAttachedWindow.m */; };
+		B256BE9210DD445A006FF88E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B256BE9110DD445A006FF88E /* Credits.rtf */; };
+		B256BF2C10DD4BED006FF88E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B256BF2B10DD4BED006FF88E /* QuartzCore.framework */; };
+		B256C03910DD5D77006FF88E /* QuickHelp.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B256C03810DD5D77006FF88E /* QuickHelp.rtf */; };
+		B2B0758410D91C1E00E40E14 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B0758310D91C1E00E40E14 /* MainWindowController.m */; };
+		B2B0760410D92AAB00E40E14 /* BorderlessWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B0760310D92AAB00E40E14 /* BorderlessWindow.m */; };
+		B2B0761810D9316200E40E14 /* IniFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B0761710D9316200E40E14 /* IniFile.m */; };
+		B2BB3DD910DB308300F7C94E /* AveTunes.icns in Resources */ = {isa = PBXBuildFile; fileRef = B2BB3DD810DB308300F7C94E /* AveTunes.icns */; };
+		B2BB3DEF10DB30D300F7C94E /* AveImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BB3DEE10DB30D300F7C94E /* AveImageView.m */; };
+		B2BB3DFD10DB30F400F7C94E /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2BB3DFC10DB30F400F7C94E /* ScriptingBridge.framework */; };
+		B2D200E710DDA39300C60256 /* AvePopupWindowAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B2D200E610DDA39300C60256 /* AvePopupWindowAnimation.m */; };
+		B2D2FFFA10DD783F00C60256 /* linkCursor.png in Resources */ = {isa = PBXBuildFile; fileRef = B2D2FFF910DD783F00C60256 /* linkCursor.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B256BEE810DD4929006FF88E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B075B510D91FD500E40E14 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* AveTunes1AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AveTunes1AppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* AveTunes1AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AveTunes1AppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* AveTunes1_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AveTunes1_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* AveTunes1-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AveTunes1-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* AveTunes1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AveTunes1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20153A310E52541001F8C7B /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = /Users/ave/Coding/Frameworks/BWToolkit/BWToolkitFramework.framework; sourceTree = "<absolute>"; };
+		B23D75B710DC3FE700BD4D5F /* PreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceWindowController.h; sourceTree = "<group>"; };
+		B23D75B810DC3FE700BD4D5F /* PreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceWindowController.m; sourceTree = "<group>"; };
+		B24221F010DC24A4005F001F /* ave_deskicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ave_deskicon.png; sourceTree = "<group>"; };
+		B256BCF710DD2867006FF88E /* MAAttachedWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAttachedWindow.h; sourceTree = "<group>"; };
+		B256BCF810DD2867006FF88E /* MAAttachedWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAttachedWindow.m; sourceTree = "<group>"; };
+		B256BE9110DD445A006FF88E /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		B256BF2B10DD4BED006FF88E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B256C03810DD5D77006FF88E /* QuickHelp.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = QuickHelp.rtf; sourceTree = "<group>"; };
+		B2B0758210D91C1E00E40E14 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		B2B0758310D91C1E00E40E14 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		B2B0760210D92AAB00E40E14 /* BorderlessWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderlessWindow.h; sourceTree = "<group>"; };
+		B2B0760310D92AAB00E40E14 /* BorderlessWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderlessWindow.m; sourceTree = "<group>"; };
+		B2B0761610D9316200E40E14 /* IniFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IniFile.h; sourceTree = "<group>"; };
+		B2B0761710D9316200E40E14 /* IniFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IniFile.m; sourceTree = "<group>"; };
+		B2BB3DD810DB308300F7C94E /* AveTunes.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AveTunes.icns; sourceTree = "<group>"; };
+		B2BB3DED10DB30D300F7C94E /* AveImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AveImageView.h; sourceTree = "<group>"; };
+		B2BB3DEE10DB30D300F7C94E /* AveImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AveImageView.m; sourceTree = "<group>"; };
+		B2BB3DFC10DB30F400F7C94E /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		B2D200E510DDA39300C60256 /* AvePopupWindowAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvePopupWindowAnimation.h; sourceTree = "<group>"; };
+		B2D200E610DDA39300C60256 /* AvePopupWindowAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvePopupWindowAnimation.m; sourceTree = "<group>"; };
+		B2D2FFF910DD783F00C60256 /* linkCursor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = linkCursor.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				B2BB3DFD10DB30F400F7C94E /* ScriptingBridge.framework in Frameworks */,
+				B256BF2C10DD4BED006FF88E /* QuartzCore.framework in Frameworks */,
+				B20153A410E52541001F8C7B /* BWToolkitFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B256BCF710DD2867006FF88E /* MAAttachedWindow.h */,
+				B256BCF810DD2867006FF88E /* MAAttachedWindow.m */,
+				B2BB3DED10DB30D300F7C94E /* AveImageView.h */,
+				B2BB3DEE10DB30D300F7C94E /* AveImageView.m */,
+				256AC3D80F4B6AC300CF3369 /* AveTunes1AppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* AveTunes1AppDelegate.m */,
+				B2B0758210D91C1E00E40E14 /* MainWindowController.h */,
+				B2B0758310D91C1E00E40E14 /* MainWindowController.m */,
+				B2B0760210D92AAB00E40E14 /* BorderlessWindow.h */,
+				B2B0760310D92AAB00E40E14 /* BorderlessWindow.m */,
+				B2B0761610D9316200E40E14 /* IniFile.h */,
+				B2B0761710D9316200E40E14 /* IniFile.m */,
+				B23D75B710DC3FE700BD4D5F /* PreferenceWindowController.h */,
+				B23D75B810DC3FE700BD4D5F /* PreferenceWindowController.m */,
+				B2D200E510DDA39300C60256 /* AvePopupWindowAnimation.h */,
+				B2D200E610DDA39300C60256 /* AvePopupWindowAnimation.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				B2BB3DFC10DB30F400F7C94E /* ScriptingBridge.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				B20153A310E52541001F8C7B /* BWToolkitFramework.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* AveTunes1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* AveTunes1 */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				B256BF2B10DD4BED006FF88E /* QuartzCore.framework */,
+			);
+			name = AveTunes1;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* AveTunes1_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2D2FFF910DD783F00C60256 /* linkCursor.png */,
+				B2BB3DD810DB308300F7C94E /* AveTunes.icns */,
+				8D1107310486CEB800E47090 /* AveTunes1-Info.plist */,
+				B24221F010DC24A4005F001F /* ave_deskicon.png */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				B256BE9110DD445A006FF88E /* Credits.rtf */,
+				B256C03810DD5D77006FF88E /* QuickHelp.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* AveTunes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AveTunes" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				B2B075B510D91FD500E40E14 /* CopyFiles */,
+				B2BB3DEA10DB30AB00F7C94E /* ShellScript */,
+				B256BEE810DD4929006FF88E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AveTunes;
+			productInstallPath = "$(HOME)/Applications";
+			productName = AveTunes1;
+			productReference = 8D1107320486CEB800E47090 /* AveTunes1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AveTunes1" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* AveTunes1 */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* AveTunes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				B2BB3DD910DB308300F7C94E /* AveTunes.icns in Resources */,
+				B24221F110DC24A4005F001F /* ave_deskicon.png in Resources */,
+				B256BE9210DD445A006FF88E /* Credits.rtf in Resources */,
+				B256C03910DD5D77006FF88E /* QuickHelp.rtf in Resources */,
+				B2D2FFFA10DD783F00C60256 /* linkCursor.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2BB3DEA10DB30AB00F7C94E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R $SRCROOT/Skins/ $CONFIGURATION_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* AveTunes1AppDelegate.m in Sources */,
+				B2B0758410D91C1E00E40E14 /* MainWindowController.m in Sources */,
+				B2B0760410D92AAB00E40E14 /* BorderlessWindow.m in Sources */,
+				B2B0761810D9316200E40E14 /* IniFile.m in Sources */,
+				B2BB3DEF10DB30D300F7C94E /* AveImageView.m in Sources */,
+				B23D75B910DC3FE700BD4D5F /* PreferenceWindowController.m in Sources */,
+				B256BCF910DD2867006FF88E /* MAAttachedWindow.m in Sources */,
+				B2D200E710DDA39300C60256 /* AvePopupWindowAnimation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks\"",
+					"\"$(SRCROOT)/../../Coding/Frameworks\"",
+					"\"$(SRCROOT)/../Frameworks/BWToolkit/BWToolkitForLeopard.ibplugin/Contents/Frameworks\"",
+					"\"$(SRCROOT)/../Frameworks/BWToolkit/BWToolkitForSnowLeopard.ibplugin/Contents/Frameworks\"",
+					"\"$(SRCROOT)/../Frameworks/BWToolkit\"",
+					"\"$(SRCROOT)/../../Frameworks/BWToolkit\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AveTunes1_Prefix.pch;
+				INFOPLIST_FILE = "AveTunes1-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = AveTunes1;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks\"",
+					"\"$(SRCROOT)/../../Coding/Frameworks\"",
+					"\"$(SRCROOT)/../Frameworks/BWToolkit/BWToolkitForLeopard.ibplugin/Contents/Frameworks\"",
+					"\"$(SRCROOT)/../Frameworks/BWToolkit/BWToolkitForSnowLeopard.ibplugin/Contents/Frameworks\"",
+					"\"$(SRCROOT)/../Frameworks/BWToolkit\"",
+					"\"$(SRCROOT)/../../Frameworks/BWToolkit\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AveTunes1_Prefix.pch;
+				INFOPLIST_FILE = "AveTunes1-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = AveTunes1;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "AveTunes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "AveTunes1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
